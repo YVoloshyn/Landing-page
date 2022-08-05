@@ -168,3 +168,59 @@ h1 {
     max-width: 1000px;
     text-align: right;
 }
+
+
+/* ======================= */
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.cta-body {
+    display: flex;
+    background-color:#3882f6;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    width: 1300px;
+    border-radius: 10px;
+    gap: 150px;
+    flex-wrap : wrap;
+}
+
+h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.text p {
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.cta-btn {
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+}
+
+.cta-btn p {
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 10px 40px;
+}
+
+/* ======================= */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #1f2937;
+}
+
+.footer p {
+    color: #f9faf8;
+}
