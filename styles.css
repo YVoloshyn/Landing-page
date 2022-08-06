@@ -10,12 +10,6 @@ body {
     font-family: 'Roboto';
 }
 
-a, .main-section p {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-  
 ul {
     list-style-type: none;
     display: flex;
@@ -24,61 +18,65 @@ ul {
     gap: 16px;
 }
 
-.header { 
+.first-block {
     display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
-    color: #f9faf8;
-    padding-top: 15px;
+    justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .left {
     font-size: 24px;
     font-weight: 800;
+    color: #e5e7eb;
 }
-
-/* ======================= */
-
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-} 
 
 .main-section {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #1F2937;
     color: #f9faf8;
-    gap: 100px;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 
 .left-main {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 440px;
     gap: 15px;
     align-items: flex-start;
 }
 
-.right-main {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-}
+.left-main h1 {
+    font-size: 48px;
+    font-weight: 800;
+} 
 
-.image {
-    display: flex;
-    background-color: rgb(145, 145, 145);
-    align-items: center;
-    justify-content: center;
-    width: 450px;
-    max-width: 450px;
-    
+.left-main p {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .sign-up-btn {
@@ -89,7 +87,17 @@ h1 {
     font-weight: 800;
 }
 
-/* ======================= */
+.right-main {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    background-color: rgb(145, 145, 145);
+    align-items: center;
+    justify-content: center; 
+    padding: 0 130px;
+}
 
 .information {
     display: flex;
