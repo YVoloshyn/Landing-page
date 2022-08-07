@@ -153,52 +153,52 @@ a {
     
 }
 
-/* ======================= */
-
-.quote {
+.quote-block {
     display: flex;
-    flex-direction: column;
     background-color: #e5e7eb;
-    align-items: center;
-    padding: 100px 0;
-    gap: 40px;
+    justify-content: center;
+    padding: 75px 0;
 }
 
-.quote-text p{
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+    background-color: #e5e7eb;
+    gap: 30px;
+}
+
+.quote-text {
     font-size: 36px;
     font-style: italic;
     font-family: 'Source Sans Pro';
-    text-align: center;
-    max-width: 1000px;
 }
 
 .quote-signature {
     font-size: 20px;
-    width: 1000px;
-    max-width: 1000px;
+    font-weight: 900;
+    color: #1f2937;
     text-align: right;
 }
 
-
-/* ======================= */
-
-.cta {
+.cta-block {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding: 100px 0px;
 }
 
 .cta-body {
     display: flex;
-    background-color:#3882f6;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
-    width: 1300px;
+    padding: 100px;
+}
+
+.cta-body-wrapper {
+    display: flex;
+    width: 1000px;
+    background-color: #3882f6;
+    justify-content: space-around;
     border-radius: 10px;
-    gap: 150px;
-    flex-wrap : wrap;
+    padding: 50px;
 }
 
 h3 {
@@ -214,15 +214,10 @@ h3 {
 .cta-btn {
     border-radius: 10px;
     border: 2px solid #e5e7eb;
-}
-
-.cta-btn p {
     color: #f9faf8;
     font-weight: 800;
     padding: 10px 40px;
 }
-
-/* ======================= */
 
 .footer {
     display: flex;
@@ -231,6 +226,6 @@ h3 {
     background-color: #1f2937;
 }
 
-.footer p {
+.footer {
     color: #f9faf8;
 }
